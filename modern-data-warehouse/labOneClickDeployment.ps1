@@ -1,6 +1,6 @@
 ﻿#####################################################################
 #----------- SQL DW Lab Resource Deployment Script ------------------
-#----------- Version 1.3.0 -----------------------------------------
+#----------- Version 2.0.0 -----------------------------------------
 ####################################################################
 
 
@@ -14,7 +14,6 @@ if($global:datePart -eq $null)
 
      $global:sourceBlobAccountName = 'sqldwholdata'
      $global:sourceBlobAccountKey = '?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwlcu&st=2019-01-03T00%3A01%3A51Z&se=2021-01-01T07%3A59%3A00Z&sig=EUGo%2FSQ4TVMy%2BT3AQeMBykWu50rQHEFjMJmnFPLbBek%3D&sr=b'
-	 $global:sourceBlobAccountAlias = 'tedatasets'
      $global:sourceContainerName = 'mattsqldwlab'
 
      $global:sqlDb = 'retaildb'
